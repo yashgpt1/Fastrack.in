@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  /* background-color: green; */
+}
+/* <!-- building the navbar -- >  */
+.nav1 {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+    rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  cursor: pointer;
+  height: 60px;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  background-color: #222222;
+  color: gray;
+}
+.brands,
+.login {
+  display: flex;
+  gap: 50px;
+}
+/* building the navbar 2 */
+.nav2 {
+  /* margin-bottom: 60px; */
+
+  cursor: pointer;
+  height: 60px;
+
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  background-color: #222222;
+  color: #fdffff;
+}
+.mainlogo {
+  font-style: italic;
+}
+
+/* dsiplay  */
+
+.sneaker {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  height: 900px;
+  /* border: 1px solid red; */
+  justify-content: space-evenly;
+}
+.itemsinside {
+  /* TODO:change the size here 60% later on  */
+  width: 40%;
+  height: 700px;
+  /* border: 1px solid red; */
+}
+.linesadjust {
+  font-size: 14px;
+  line-height: 100%;
+  color: gray;
+}
+#addtocart {
+  border: 0;
+  border-radius: 5px;
+  background-color: #e09d00;
+  color: white;
+  padding: 10px 120px;
+  cursor: pointer;
+  overflow: none;
+}
+#footer {
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+  background-color: #202020;
+  color: white;
+}
+#footer > div {
+  margin-top: 20px;
+  margin-left: 30px;
+}
